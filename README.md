@@ -3,10 +3,10 @@ Laravel Article Project Doc
 
 1. İlk olarak bilgisayarınızda composer kurulu olduğundan emin olmalıyız. 
 Daha sonra laravel proje dosyası oluşturmak için aşağıdaki komutu terminalde çalıştırıyoruz.
-composer create-project --prefer-dist laravel/laravel ProjectName
+```composer create-project --prefer-dist laravel/laravel ProjectName```
 
 2. Aşağıdaki komutu terminalde çalıştırıyoruz.
-php artisan make:model Article -mc
+```php artisan make:model Article -mc```
 
 3. phpmyadmin den database yaratıyoruz. 
 create database 
@@ -26,7 +26,7 @@ public function up()
         });
     }
  ```
-6. php artisan migrate komutunu terminalde çalışırıyoruz ve tabloyu oluşturuyor. 
+6. ```php artisan migrate``` komutunu terminalde çalışırıyoruz ve tabloyu oluşturuyor. 
 
 
 bootstrap starter tamplate; 
