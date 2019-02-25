@@ -14,6 +14,7 @@ create database
 4. .env file dosyasından sunucu ve database bilgilerimizi güncelliyoruz. 
 
 5. database folder'ı altında bulunan migrations içindeki create_articles_table.php güncelliyoruz.
+```
 public function up()
     {
         Schema::create('articles', function (Blueprint $table) {
@@ -24,7 +25,7 @@ public function up()
             $table->timestamps();    
         });
     }
-    
+ ```
 6. php artisan migrate komutunu terminalde çalışırıyoruz ve tabloyu oluşturuyor. 
 
 
